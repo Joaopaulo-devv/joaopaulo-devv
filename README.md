@@ -1,6 +1,5 @@
 <h1 align="center">Olá, eu sou o João Paulo 👋</h1>
-
-<h3 align="center">Desenvolvedor Full Stack</h3>
+<h3 align="center">Desenvolvedor Full Stack | Segurança Ofensiva (Pentest)</h3>
 
 <p align="center">
   <i>"O desenvolvimento progressivo do homem depende diretamente da invenção.<br>
@@ -18,7 +17,8 @@
 ## 🧑‍💻 Sobre mim
 
 - 💻 Desenvolvedor **Full Stack**, trabalhando com front-end e back-end;
-- 🚀 Gosto de construir aplicações completas, do banco de dados à interface;
+- 🔐 Também atuo com **Pentest / Segurança Ofensiva** — testes de invasão em aplicações web, focados em autenticação, IDOR, CORS e falhas de lógica de negócio;
+- 🚀 Gosto de construir aplicações completas, do banco de dados à interface — e depois testar onde elas quebram;
 - 🔌 Tenho experiência integrando e consumindo **APIs**;
 - 🌱 Sempre estudando e evoluindo como desenvolvedor;
 - 📫 Me encontre no LinkedIn: [joaopaulodlimaaa](https://www.linkedin.com/in/joaopaulodlimaaa)
@@ -37,6 +37,19 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="APIs"/>
 </p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
+  <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
+  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP"/>
+</p>
+
+<br>
+
+## 📌 Projeto em destaque
+
+**[pentest-ead-writeup](https://github.com/joaopaulo-devv/pentest-ead-writeup)**
+Writeup anonimizado de um teste de invasão autorizado em uma plataforma de cursos online, feito em 3 fases: autenticação por OTP/CORS, CDN de vídeo/streaming, e IDOR em sistema de gamificação com bruteforce de OTP. Inclui relatórios técnicos por fase e um guia de correção consolidado para o time de desenvolvimento.
 
 <br>
 
