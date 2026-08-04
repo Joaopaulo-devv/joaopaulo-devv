@@ -71,7 +71,7 @@ Writeup anonimizado de um teste de invasão autorizado em uma plataforma de curs
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=joaopaulo-devv&theme=tokyonight&hide_border=true" alt="Streak de contribuições"/>
+  <img src="https://streak-stats.demolab.com/?user=joaopaulo-devv&theme=tokyonight&hide_border=true" alt="Streak de contribuições"/>
 </p>
 
 <br>
