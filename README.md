@@ -1,5 +1,5 @@
-<h1 align="center">Olá, eu sou o João Paulo 👋</h1>
-<h3 align="center">Segurança Ofensiva (Pentest) | Full Stack Developer</h3>
+<h1 align="center">João Paulo</h1>
+<h3 align="center">🔐 Segurança Ofensiva (Pentest / AppSec) | 💻 Full Stack Developer</h3>
 
 <p align="center">
   <i>"O desenvolvimento progressivo do homem depende diretamente da invenção.<br>
@@ -10,6 +10,7 @@
   <a href="https://www.linkedin.com/in/joaopaulodlimaaa" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+  <img src="https://img.shields.io/badge/Status-Aberto_a_oportunidades-2ea44f?style=for-the-badge" alt="Status"/>
 </p>
 
 <br>
@@ -18,30 +19,52 @@
 
 Buscando oportunidades em **Pentest / AppSec / Segurança Ofensiva**.
 
-Entender como uma aplicação é construída — do banco de dados à API, do front ao back — é o que me ajuda a enxergar onde ela quebra. Uso desenvolvimento como ferramenta pra ler código, entender fluxos de autenticação e lógica de negócio, e achar falha com mais precisão do que testando "de fora pra dentro" sem esse contexto.
+Trabalho a lógica de segurança a partir de quem entende como a aplicação é construída — banco de dados, API, autenticação, front-end — porque é isso que separa "rodar uma ferramenta" de **entender por que a falha existe**. Uso desenvolvimento Full Stack como base pra ler código, entender fluxos de negócio e achar vulnerabilidade com mais precisão do que um teste puramente "de fora pra dentro".
 
 <br>
 
-## 🔐 Sobre mim
+## 🕵️ Áreas de atuação em segurança
 
-- 🧪 Testo aplicações web focando em **autenticação, IDOR, CORS, rate limiting e falhas de lógica de negócio**
-- 📄 Escrevo relatórios técnicos de pentest, sempre **anonimizados** — sem nomes de empresa, domínio real ou dado de terceiro, respeitando escopo e confidencialidade
-- 💻 Base sólida em **desenvolvimento Full Stack** (front-end e back-end), o que me dá leitura de código pra ir além do "black box"
-- 🔌 Experiência integrando e consumindo **APIs**
-- 🌱 Estudando continuamente — metodologia OWASP, recon, exploração manual e automação de testes
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Web Application Security**
+- Testes de autenticação (OTP, sessão, 2FA)
+- IDOR / Broken Access Control
+- CORS mal configurado
+- Falhas de lógica de negócio
+- Rate limiting / força bruta
+
+</td>
+<td width="50%" valign="top">
+
+**Recon & Infraestrutura**
+- Enumeração e varredura de portas (Nmap)
+- Análise de headers de segurança HTTP
+- Testes de injeção (SQLi, XSS)
+- Avaliação de CDN e exposição de conteúdo
+
+</td>
+</tr>
+</table>
+
+Metodologia baseada no **OWASP Top 10** e no **OWASP Testing Guide**, com relatórios técnicos priorizados por severidade e impacto de negócio — sempre dentro de escopo autorizado.
 
 <br>
 
-## 🛠️ Segurança
+## 🛠️ Arsenal
 
 <p align="left">
   <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
   <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
   <img src="https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP"/>
   <img src="https://img.shields.io/badge/curl-073551?style=for-the-badge&logo=curl&logoColor=white" alt="curl"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
 </p>
 
-## 💻 Desenvolvimento (suporte à leitura de código e às aplicações que testo)
+## 💻 Desenvolvimento (base técnica)
 
 <p align="left">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
@@ -51,15 +74,33 @@ Entender como uma aplicação é construída — do banco de dados à API, do fr
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="APIs"/>
+  <img src="https://img.shields.io/badge/APIs-FF6C37?style=for-the-badge&logo=fastapi&logoColor=white" alt="APIs"/>
 </p>
 
 <br>
 
 ## 📌 Projeto em destaque
 
-**[pentest-ead-writeup](https://github.com/joaopaulo-devv/pentest-ead-writeup)**
-Writeup anonimizado de um teste de invasão autorizado em uma plataforma de cursos online, em 3 fases: autenticação por OTP/CORS, CDN de vídeo/streaming, e IDOR em sistema de gamificação com bruteforce de OTP. Inclui relatórios técnicos por fase e um guia de correção consolidado, priorizado por severidade e risco de negócio — como seria entregue a um time de desenvolvimento real.
+### [pentest-ead-writeup](https://github.com/joaopaulo-devv/pentest-ead-writeup)
+
+Writeup anonimizado de um teste de invasão **autorizado** em uma plataforma de cursos online, conduzido em 3 fases:
+
+| Fase | Escopo | Principais achados |
+|---|---|---|
+| 1 | Sem autenticação | CORS malconfigurado, enumeração de usuários, rate limiting ausente |
+| 2 | Conta autenticada | Vídeos pagos sem autenticação (CDN), CORS permissivo, sessão sem controle de concorrência |
+| 3 | Testes avançados | IDOR em sistema de gamificação, bruteforce de OTP, headers de segurança ausentes |
+
+Inclui relatórios técnicos por fase e um **guia de correção consolidado**, priorizado por severidade — como seria entregue de fato a um time de desenvolvimento.
+
+<br>
+
+## 🎓 Em estudo
+
+<!-- Edite esta lista com o que você está estudando/pretende certificar de fato -->
+- Aprofundamento em metodologia de Pentest Web (OWASP Testing Guide)
+- Prática contínua em laboratórios de exploração (CTF / plataformas de treino)
+- Segurança de APIs e automação de testes
 
 <br>
 
@@ -74,7 +115,20 @@ Writeup anonimizado de um teste de invasão autorizado em uma plataforma de curs
   <img src="https://streak-stats.demolab.com/?user=joaopaulo-devv&theme=tokyonight&hide_border=true" alt="Streak de contribuições"/>
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=joaopaulo-devv&theme=tokyonight&no-frame=true&column=7&margin-w=8" alt="Troféus do GitHub"/>
+</p>
+
 <br>
+
+## 📫 Contato
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/joaopaulodlimaaa" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <!-- Adicione aqui e-mail e outros contatos, se quiser deixar públicos -->
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=joaopaulo-devv&style=for-the-badge&color=70a5fd" alt="Visualizações do perfil"/>
