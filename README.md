@@ -21,15 +21,17 @@
 
 <br>
 
-> *"O desenvolvimento progressivo do homem depende diretamente da invenção. Ela é o produto mais importante de sua mente criativa."*
+## 👋 Sobre mim
+
+Sou autodidata em segurança ofensiva e desenvolvimento Full Stack. Estudo por conta própria desde cedo e já apliquei isso na prática: passei um período caçando falhas de segurança reais nos sistemas de uma grande plataforma de cursos EAD, usando principalmente Burp Suite, encontrando desde falhas de controle de acesso (IDOR) até problemas de configuração (CORS, headers, DMARC).
+
+Uso minha base como desenvolvedor — banco de dados, API, autenticação, front-end — pra entender *por que* uma falha existe, não só rodar uma ferramenta e reportar o resultado. É essa combinação que busco em oportunidades de Pentest / AppSec.
 
 <br>
 
 ## 🎯 Foco atual
 
 Buscando oportunidades em **Pentest / AppSec / Segurança Ofensiva**.
-
-Trabalho a lógica de segurança a partir de quem entende como a aplicação é construída — banco de dados, API, autenticação, front-end — porque é isso que separa "rodar uma ferramenta" de **entender por que a falha existe**. Uso desenvolvimento Full Stack como base pra ler código, entender fluxos de negócio e achar vulnerabilidade com mais precisão do que um teste puramente "de fora pra dentro".
 
 <br>
 
@@ -60,6 +62,12 @@ Trabalho a lógica de segurança a partir de quem entende como a aplicação é 
 </table>
 
 Metodologia baseada no **OWASP Top 10** e no **OWASP Testing Guide**, com relatórios técnicos priorizados por severidade e impacto de negócio — sempre dentro de escopo autorizado.
+
+<br>
+
+## 📜 Certificações
+
+- **Introdução ao Hacking e Pentest 2.0** — Solyd Offensive Security (8h) — 2026
 
 <br>
 
@@ -119,12 +127,10 @@ Inclui relatórios técnicos por fase e um **guia de correção consolidado**, p
 
 ## 🎓 Em estudo
 
-```text
-Metodologia OWASP Testing Guide     ████████████████░░░░  80%
-CTF / Labs de exploração            ██████████████░░░░░░  70%
-Segurança de APIs                   █████████████░░░░░░░  65%
-Automação de testes de segurança    ███████████░░░░░░░░░  55%
-```
+- Metodologia OWASP Testing Guide
+- CTFs e labs de exploração prática
+- Segurança de APIs
+- Automação de testes de segurança
 
 <br>
 
@@ -138,14 +144,6 @@ Automação de testes de segurança    ███████████░░�
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=joaopaulo-devv&theme=tokyonight&hide_border=true&background=0D1117" alt="Streak de contribuições"/>
 </p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=joaopaulo-devv&theme=tokyonight&no-frame=true&column=7&margin-w=8" alt="Troféus do GitHub"/>
-</p>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=joaopaulo-devv&theme=tokyo-night&hide_border=true&bg_color=0D1117&area=true" alt="Gráfico de atividade"/>
-</div>
 
 <br>
 
