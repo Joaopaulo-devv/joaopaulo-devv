@@ -23,9 +23,16 @@
 
 ## 👋 Sobre mim
 
+```bash
+$ whoami
+> João Paulo — João Pessoa/PB
+> full stack dev com queda por achar o que não deveria estar exposto
+> café: obrigatório · escopo autorizado: sempre
+```
+
 Sou autodidata em segurança ofensiva e desenvolvimento Full Stack. Estudo por conta própria desde cedo e já apliquei isso na prática: passei um período caçando falhas de segurança reais nos sistemas de uma grande plataforma de cursos EAD, usando principalmente Burp Suite, encontrando desde falhas de controle de acesso (IDOR) até problemas de configuração (CORS, headers, DMARC).
 
-Uso minha base como desenvolvedor — banco de dados, API, autenticação, front-end — pra entender *por que* uma falha existe, não só rodar uma ferramenta e reportar o resultado. É essa combinação que busco em oportunidades de Pentest / AppSec.
+Uso minha base como desenvolvedor — banco de dados, API, autenticação, front-end — pra entender *por que* uma falha existe, não só rodar uma ferramenta e reportar o resultado. É essa combinação que busco em oportunidades de Pentest / AppSec: **construo pensando em como vou quebrar, e quebro pensando em como corrigir.**
 
 <br>
 
@@ -94,15 +101,32 @@ Metodologia baseada no **OWASP Top 10** e no **OWASP Testing Guide**, com relat�
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/APIs_REST-FF6C37?style=for-the-badge&logo=fastapi&logoColor=white" alt="APIs"/>
+  <img src="https://img.shields.io/badge/APIs_REST-2ea44f?style=for-the-badge&logo=swagger&logoColor=white" alt="APIs"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
 <br>
 
-## 📌 Projeto em destaque
+## 📌 Projetos em destaque
 
-### [pentest-ead-writeup](https://github.com/joaopaulo-devv/pentest-ead-writeup)
+### 🛡️ [secure-auth-app](https://github.com/joaopaulo-devv/secure-auth-app)
+
+Aplicação Full Stack (Node/Express/MySQL/React) construída com **autenticação segura como requisito de design**, não como reboco depois — mitigações pensadas desde o início para IDOR, força bruta e enumeração de usuários.
+
+O lado "construção" do mesmo raciocínio usado nos pentests abaixo: se eu sei como uma falha é explorada, sei também como evitar que ela exista.
+
+<p align="left">
+  <a href="https://github.com/joaopaulo-devv/secure-auth-app">
+    <img src="https://img.shields.io/github/stars/joaopaulo-devv/secure-auth-app?style=for-the-badge&color=2ea44f&label=Stars" alt="Stars"/>
+  </a>
+  <a href="https://github.com/joaopaulo-devv/secure-auth-app">
+    <img src="https://img.shields.io/badge/Ver_Reposit%C3%B3rio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositório"/>
+  </a>
+</p>
+
+<br>
+
+### 🕵️ [pentest-ead-writeup](https://github.com/joaopaulo-devv/pentest-ead-writeup)
 
 Writeup anonimizado de um teste de invasão **autorizado** em uma plataforma de cursos online, conduzido em 3 fases:
 
@@ -127,10 +151,12 @@ Inclui relatórios técnicos por fase e um **guia de correção consolidado**, p
 
 ## 🎓 Em estudo
 
-- Metodologia OWASP Testing Guide
-- CTFs e labs de exploração prática
-- Segurança de APIs
-- Automação de testes de segurança
+<p align="left">
+  <img src="https://img.shields.io/badge/OWASP_Testing_Guide-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP Testing Guide"/>
+  <img src="https://img.shields.io/badge/CTFs_%26_Labs-2ea44f?style=for-the-badge&logo=hackthebox&logoColor=white" alt="CTFs e Labs"/>
+  <img src="https://img.shields.io/badge/Segurança_de_APIs-FF6633?style=for-the-badge&logo=swagger&logoColor=white" alt="Segurança de APIs"/>
+  <img src="https://img.shields.io/badge/Automação_de_Testes-4682B4?style=for-the-badge&logo=githubactions&logoColor=white" alt="Automação de Testes"/>
+</p>
 
 <br>
 
@@ -147,11 +173,6 @@ Inclui relatórios técnicos por fase e um **guia de correção consolidado**, p
 
 <br>
 
-<!--
-  🐍 Snake animation: gerada automaticamente via GitHub Actions.
-  Adicione o workflow "snk" ao repositório joaopaulo-devv/joaopaulo-devv
-  (Platane/snk) para que esta imagem seja criada e atualizada sozinha.
--->
 <div align="center">
   <img src="https://raw.githubusercontent.com/joaopaulo-devv/joaopaulo-devv/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%"/>
 </div>
