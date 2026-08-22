@@ -163,12 +163,12 @@ Inclui relatórios técnicos por fase e um **guia de correção consolidado**, p
 ## 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=joaopaulo-devv&show_icons=true&theme=tokyonight&locale=pt-br&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117" alt="Estatísticas do GitHub"/>
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopaulo-devv&layout=compact&theme=tokyonight&locale=pt-br&hide_border=true&bg_color=0D1117" alt="Linguagens mais usadas"/>
+  <img height="165em" src="./profile/stats.svg" alt="Estatísticas do GitHub"/>
+  <img height="165em" src="./profile/top-langs.svg" alt="Linguagens mais usadas"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=joaopaulo-devv&theme=tokyonight&hide_border=true&background=0D1117" alt="Streak de contribuições"/>
+  <img src="./profile/streak.svg" alt="Streak de contribuições"/>
 </p>
 
 <br>
