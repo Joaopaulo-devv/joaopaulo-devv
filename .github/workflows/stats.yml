@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 3 * * *"   # Todo dia às 03:00 UTC
   workflow_dispatch:        # Permite rodar manualmente na aba "Actions"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/stats.yml"
 
 permissions:
   contents: write
@@ -14,28 +18,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Gerar card de estatísticas
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Gerar card de linguagens
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Gerar card de streak
+      # Duas variantes para o README funcionar nos temas claro e escuro
+      - name: Gerar streak (tema escuro)
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&background=0D1117&disable_animations=true
+          options: user=${ github.repository_owner }}&theme=tokyonight&hide_border=true&background=0D1117&disable_animations=true
           path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${ secrets.GITHUB_TOKEN }}
+
+      - name: Gerar streak (tema claro)
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${ github.repository_owner }}&theme=default&hide_border=true&background=FFFFFF&disable_animations=true
+          path: profile/streak-light.svg
+          token: ${ secrets.GITHUB_TOKEN }}
 
       - name: Commitar cards atualizados
         run: |
