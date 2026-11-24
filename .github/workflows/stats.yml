@@ -22,16 +22,16 @@ jobs:
       - name: Gerar streak (tema escuro)
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=${ github.repository_owner }}&theme=tokyonight&hide_border=true&background=0D1117&disable_animations=true
+          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&background=0D1117&disable_animations=true
           path: profile/streak.svg
-          token: ${ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Gerar streak (tema claro)
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=${ github.repository_owner }}&theme=default&hide_border=true&background=FFFFFF&disable_animations=true
+          options: user=${{ github.repository_owner }}&theme=default&hide_border=true&background=FFFFFF&disable_animations=true
           path: profile/streak-light.svg
-          token: ${ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commitar cards atualizados
         run: |
