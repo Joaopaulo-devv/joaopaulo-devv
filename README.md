@@ -8,7 +8,7 @@
 
 <a href="https://www.linkedin.com/in/joaopaulodlimaaa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://github.com/joaopaulo-devv"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<img src="https://img.shields.io/badge/Pentester-Freelancer_desde_2025-2ea44f?style=for-the-badge" alt="Pentester freelancer desde 2025"/>
+<img src="https://img.shields.io/badge/Pentester-Desde_2025-2ea44f?style=for-the-badge" alt="Pentester freelancer desde 2025"/>
 <img src="https://img.shields.io/badge/Status-Aberto_a_oportunidades-2ea44f?style=for-the-badge" alt="Aberto a oportunidades"/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A66C2,100:2ea44f&height=3&width=100%" width="100%" alt=""/>
